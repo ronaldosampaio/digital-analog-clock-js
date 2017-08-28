@@ -1,0 +1,68 @@
+
+.container-text{
+	color:darkgreen;
+}
+.container-text-relogio-imgrelogio{
+	
+}
+
+.container-text-relogio-imgrelogio__clock {
+	margin-top: -130px;
+	margin-left: -115px;
+    padding: 5px;
+    color: #fff;
+	
+}
+
+
+ul li {
+	display: inline;
+	font-size: 12;
+	text-align: center;
+	font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+	text-shadow: 0 0 5px #00c6ff;
+}
+
+#point, h1{
+
+	position: relative;
+	-moz-animation: mymove 1s ease infinite;
+	-webkit-animation: mymove 1s ease infinite;
+	padding-left: 1px;
+	padding-right: 1px;
+
+}
+
+@-webkit-keyframes mymove {
+	0% {
+		opacity: 1.0;
+		text-shadow: 0 0 20px darkseagreen;
+	}
+
+	50% {
+		opacity: 0;
+		text-shadow: none;
+	}
+
+	100% {
+		opacity: 1.0;
+		text-shadow: 0 0 20px darkseagreen;
+	}
+}
+
+@-moz-keyframes mymove {
+	0% {
+		opacity: 1.0;
+		text-shadow: 0 0 20px darkseagreen; 
+	}
+
+	50% {
+		opacity: 0;
+		text-shadow: none;
+	}
+
+	100% {
+		opacity: 1.0;
+		text-shadow: 0 0 20px darkseagreen;
+	}
+}
